@@ -29,6 +29,10 @@ header {
     @include responsive() {
       display: none;
     }
+
+    strong {
+      color: $red-dark;
+    }
   }
 }
 

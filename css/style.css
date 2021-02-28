@@ -291,6 +291,10 @@ header {
   }
 }
 
+.nav-list li strong {
+  color: #C70E13;
+}
+
 .logo {
   max-width: 88px;
 }
