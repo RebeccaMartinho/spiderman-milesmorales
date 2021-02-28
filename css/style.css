@@ -334,17 +334,72 @@ header {
 }
 
 .hamburguer {
-  width: 48px;
-  height: 48px;
-  background-color: white;
+  width: 50px;
+  height: 50px;
+  background: transparent;
   border-radius: 8px;
   border: 0;
   cursor: pointer;
   display: none;
+  position: relative;
 }
 
 @media screen and (max-width: 960px) {
   .hamburguer {
+    display: block;
+  }
+}
+
+.hamburguer:after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 70%;
+  height: 10%;
+  border-radius: 5px;
+  background-color: #B7AEAE;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.hamburguer:before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  width: 70%;
+  height: 10%;
+  border-radius: 5px;
+  background-color: #B7AEAE;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+#hamburguer:checked ~ label .hamburguer:after {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  top: 45%;
+}
+
+#hamburguer:checked ~ label .hamburguer:before {
+  -webkit-transform: rotate(-225deg);
+          transform: rotate(-225deg);
+  top: 45%;
+}
+
+.icons {
+  display: none;
+}
+
+#hamburguer:checked ~ label .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 960px) {
+  #hamburguer:checked ~ label .icons {
     display: block;
   }
 }
