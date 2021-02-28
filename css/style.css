@@ -392,6 +392,10 @@ header {
   display: none;
 }
 
+.icons svg {
+  margin-top: 20px;
+}
+
 #hamburguer:checked ~ label .icons {
   display: -webkit-box;
   display: -ms-flexbox;
