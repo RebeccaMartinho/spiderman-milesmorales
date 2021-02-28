@@ -6,8 +6,13 @@ Projeto front-end desenvolvido durante o evento FrontWeek, representando o lanç
 ## Desktop
 <img width="800px" height="500" src="./.github/images/printscreen.png" />
 
+
 ## Efeitos
-<img width="500px" src="./.github/images/spiderman.gif" /> 
+<img width="800x" height="500" src="./.github/images/spiderman.gif" /> 
+
+## Responsivo
+
+<img width="300px" height="500" src="./.github/images/mobile.png" />
 
 ## :rocket: Tecnologias
 * HTML
@@ -16,7 +21,8 @@ Projeto front-end desenvolvido durante o evento FrontWeek, representando o lanç
 
 ## :wrench: Bibliotecas
 
-* GSAP
-* SVGInject
-* Tilt.js
-* JQuery
+
+* [GSAP](https://greensock.com/gsap/)
+* [SVGInject](https://github.com/iconfu/svg-inject)
+* [Tilt.js](https://gijsroge.github.io/tilt.js/)
+* [JQuery](https://jquery.com/)
