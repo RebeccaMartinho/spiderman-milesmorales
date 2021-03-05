@@ -16,12 +16,8 @@ Projeto front-end desenvolvido durante o evento FrontWeek, representando o lanç
 
 ## :rocket: Tecnologias
 * HTML
-* SASS
+* [SASS](https://sass-lang.com/)
 * JavaScript
-
-## :wrench: Bibliotecas
-
-
 * [GSAP](https://greensock.com/gsap/)
 * [SVGInject](https://github.com/iconfu/svg-inject)
 * [Tilt.js](https://gijsroge.github.io/tilt.js/)
