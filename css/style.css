@@ -165,7 +165,7 @@ p {
   padding: 10px 32px;
   border-radius: 3px;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
   -webkit-transition: .7s ease;
   transition: .7s ease;
   text-transform: uppercase;
