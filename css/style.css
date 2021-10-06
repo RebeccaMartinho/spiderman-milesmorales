@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'Mukta', sans-serif;
 }
 
@@ -44,19 +44,19 @@ p {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 960px) {
   .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: auto;
     overflow: hidden;
   }
@@ -69,11 +69,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .flex {
@@ -88,21 +88,21 @@ p {
 
 .align-items-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .spiderman {
   width: 125%;
   -webkit-transform: translate3d(-190px, 0, 0);
-          transform: translate3d(-190px, 0, 0);
+  transform: translate3d(-190px, 0, 0);
 }
 
 @media screen and (max-width: 960px) {
   .spiderman {
     width: 90%;
     -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -111,7 +111,7 @@ p {
   padding: 12px 32px;
   border-radius: 3px;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
   -webkit-transition: .7s ease;
   transition: .7s ease;
   text-transform: uppercase;
